@@ -1,1 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-family-main: "Inter-Regular";
+    --font-family-accent: "PressStart2P";
+    --font-size-main: 18px;
+    --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --header-title-line-height: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --header-main-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --header-main-line-height: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --header-padding-top: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
+    --bg-color: #FFF;
+    --accent-color: #000;
+    --btn-bg-color: #FFF;
+    --btn-txt-color: #FFF;
+    --like-contour-color: #000;
+    --like-main-body-color: #000;;
+    --like-core-color: #000;
+    --like-sparks-color: #FF0000;
+    --like-active-color: #FF0000;
+    --logo-indent-end: clamp(0.6875rem, 0.4234rem + 1.1268vw, 1.4375rem);
+    --img-size: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
+    --logo-shadow-color: #FFF;
+    --dialog-inline-size: clamp(21.3125rem, 20.9604rem + 1.5023vw, 22.3125rem);
+    --dialog-btn-padding-left-right: clamp(7.03125rem, 6.6351rem + 1.6901vw, 8.15625rem);
+    --bg-img: 
+    repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(#e7e7e7, #e7e7e7 0.01%, #1a1a1a);
+}
