@@ -11,6 +11,6 @@
     font-display: swap;
     font-family: 'Inter-Regular';
     src: url(./Inter-Variable.woff2) format('woff2 supports variations'),
-    url(./Inter-Variable.woff2) format('woff2 supports');
+    url(./Inter-Variable.woff2) format('woff2-variations');
     font-weight: 400 785;
 }
