@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-family-main: "Inter-Regular";
+    --font-family-main: "Inter";
     --font-family-accent: "PressStart2P";
     --font-size-main: 18px;
     --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
@@ -17,6 +17,8 @@
     --like-core-color: #000;
     --like-sparks-color: #FF0000;
     --like-active-color: #FF0000;
+    --article-title-font-weight: 700;
+    --article-text-font-weight: 400;
     --logo-indent-end: clamp(0.6875rem, 0.4234rem + 1.1268vw, 1.4375rem);
     --img-size: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
     --logo-shadow-color: #FFF;
