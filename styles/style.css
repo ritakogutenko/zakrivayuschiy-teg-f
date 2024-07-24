@@ -276,6 +276,7 @@
 }
 
 .card__icon-button {
+  cursor: pointer;
   background-color: var(--bg-color);
   border: none;
 }
